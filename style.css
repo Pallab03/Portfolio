@@ -1425,6 +1425,11 @@ footer>h2 {
         justify-self: center;
 
     }
+    /* Section 4 */
+
+
+
+
 
     /* ---------------footer------------- */
     footer {
@@ -1569,12 +1574,12 @@ footer>h2 {
     }
 
     .fotter-container>.contactForm {
-        width: 65%;
+        width: 85%;
         padding: 40px;
-        height: 82vh;
+        height: 52vh;
         background-color: #fff;
         border-radius: 25px;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     .contactForm>form>h2 {
@@ -1639,7 +1644,7 @@ footer>h2 {
     .container4>.project-list {
         width: 100%;
         /* background-color: #636161; */
-        padding: 2rem;
+        padding: 1.8rem;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -1709,12 +1714,12 @@ footer>h2 {
 
     /* fotter form */
     .fotter-container>.contactForm {
-        width: 95%;
+        width: 85%;
         padding: 40px;
-        height: 72vh;
+        height: 62vh;
         background-color: #fff;
         border-radius: 25px;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 }
 @media (max-width:400px){
@@ -1780,7 +1785,7 @@ footer>h2 {
         text-align: left;
     }
     .container3 {
-        min-height: 200vh;
+        min-height: 130vh;
         width: 100%;
         /* background-color: #fff; */
         padding: 10px;
@@ -1835,11 +1840,24 @@ footer>h2 {
         margin: 3rem 0rem;
 
     }
-    
+    .container4>.project-list>.box {
+        min-height: 320px;
+        width: 280px;
+        background-color: #cae4c5;
+        padding: 1.2rem;
+        margin: 1rem;
+        /* gap: 1rem; */
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px #000;
+        transition: all ease-in .4s;
+        cursor: pointer;
+        /* margin-top: 1rem; */
+        animation: topSlide 2s ease forwards;
+    }
     .container4>.project-list>.box>i {
         font-size: 30px;
-        margin-bottom: 3rem;
-        margin-left: 1.5rem;
+        margin-bottom: 2rem;
+        margin-left: 4vw;
         filter: drop-shadow(8px 8px 8px #61594b);
 
     }
@@ -1847,10 +1865,19 @@ footer>h2 {
         .fotter-container>.contactForm {
             width: 95%;
             padding: 10px;
-            height: 72vh;
+            height: 62vh;
             background-color: #fff;
             border-radius: 25px;
-            margin-top: 80px;
+            margin-top: 10px;
+        }
+        .fotter-container>.contact-info {
+            width: 100%;
+            height: 70vh;
+            display: flex;
+            align-items: top;
+            flex-direction: column;
+            /* border: 2px solid white; */
+            padding: 0px;
         }
         .contactForm>form>h2 {
             font-size: 20px;
